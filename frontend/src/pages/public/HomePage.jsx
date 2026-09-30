@@ -12,26 +12,12 @@ import {
   AlertCircle,
   Clock,
   Award,
-<<<<<<< HEAD
   Smartphone,
-  Download
-=======
-  Sparkles,
-  Users,
+  Download,
   Search,
   CheckCircle,
-  HelpCircle,
-  Smartphone,
   ChevronRight,
-  Activity,
-  Layers,
-  Cpu,
   Lock,
-  Zap,
-  Globe,
-  Radio,
-  FileText
->>>>>>> cc91dd8a3fa95de38a026c4efa4544901a7f8056
 } from 'lucide-react';
 
 export const HomePage = () => {
