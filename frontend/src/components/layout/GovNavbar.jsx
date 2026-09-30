@@ -13,10 +13,14 @@ import {
   FileCheck2,
   Lock,
   ChevronDown,
+<<<<<<< HEAD
+  Smartphone
+=======
   Sparkles,
   Info,
   Layers,
   Scale
+>>>>>>> cc91dd8a3fa95de38a026c4efa4544901a7f8056
 } from 'lucide-react';
 
 export const GovNavbar = () => {
@@ -84,8 +88,53 @@ export const GovNavbar = () => {
               <span className="font-serif tracking-tight truncate max-w-[170px] sm:max-w-none">Metrology Portal</span>
             </Link>
 
+<<<<<<< HEAD
+            <Link
+              to="/about"
+              className={`px-3 py-1.5 rounded text-xs sm:text-sm font-medium transition ${
+                isActive('/about') ? 'bg-gov-blue text-amber-300 font-semibold' : 'hover:bg-gov-blue hover:text-white'
+              }`}
+            >
+              About
+            </Link>
+
+            <Link
+              to="/services"
+              className={`px-3 py-1.5 rounded text-xs sm:text-sm font-medium transition ${
+                isActive('/services') ? 'bg-gov-blue text-amber-300 font-semibold' : 'hover:bg-gov-blue hover:text-white'
+              }`}
+            >
+              Services
+            </Link>
+
+            <Link
+              to="/verify"
+              className={`px-3 py-1.5 rounded text-xs sm:text-sm font-medium flex items-center space-x-1 transition ${
+                isActive('/verify') ? 'bg-gov-blue text-amber-300 font-semibold' : 'hover:bg-gov-blue hover:text-white'
+              }`}
+            >
+              <ShieldCheck size={15} className="text-emerald-400" />
+              <span>Certificate Verification</span>
+            </Link>
+
+            <Link
+              to="/download"
+              className={`px-3 py-1.5 rounded text-xs sm:text-sm font-medium flex items-center space-x-1 transition ${
+                isActive('/download')
+                  ? 'bg-amber-600 text-white font-semibold'
+                  : 'bg-amber-600/20 hover:bg-amber-600 text-amber-300 hover:text-white border border-amber-500/40'
+              }`}
+            >
+              <Smartphone size={14} />
+              <span>Download App</span>
+            </Link>
+
+            {/* Quick Access to Active Role Dashboard */}
+            {user && (
+=======
             {/* Desktop Navigation Links (hidden on mobile, visible on md+) */}
             <div className="hidden md:flex items-center space-x-1 sm:space-x-2">
+>>>>>>> cc91dd8a3fa95de38a026c4efa4544901a7f8056
               <Link
                 to="/"
                 className={`px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold transition btn-tactile ${

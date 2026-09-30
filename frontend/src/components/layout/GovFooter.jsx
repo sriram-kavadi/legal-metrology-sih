@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
+import { ShieldCheck, Scale, ExternalLink, HelpCircle, FileText, Phone, Mail, MapPin, Smartphone } from 'lucide-react';
+=======
 import { ShieldCheck, Scale, ExternalLink, HelpCircle, FileText, Phone, Mail, MapPin, Award, CheckCircle2 } from 'lucide-react';
+>>>>>>> cc91dd8a3fa95de38a026c4efa4544901a7f8056
 
 export const GovFooter = () => {
   return (
@@ -109,8 +113,14 @@ export const GovFooter = () => {
                 </Link>
               </li>
               <li>
+<<<<<<< HEAD
+                <Link to="/download" className="hover:text-amber-400 flex items-center space-x-1.5 font-medium text-amber-400/80">
+                  <Smartphone size={12} className="text-amber-400" />
+                  <span>Download Mobile App</span>
+=======
                 <Link to="/about" className="hover:text-amber-400 transition block text-slate-300">
                   Statutory Tolerance Norms (MPE)
+>>>>>>> cc91dd8a3fa95de38a026c4efa4544901a7f8056
                 </Link>
               </li>
             </ul>
