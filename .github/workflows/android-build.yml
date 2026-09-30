@@ -34,10 +34,10 @@ jobs:
           VITE_API_URL: ${{ secrets.VITE_API_URL || '/api' }}
           VITE_PAYMENT_PROVIDER: ${{ secrets.VITE_PAYMENT_PROVIDER || 'demo' }}
 
-      - name: Set up JDK 17
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
           cache: gradle
 
